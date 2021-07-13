@@ -1,0 +1,28 @@
+{
+    "name": "redtag/turismo",
+    "description": "Sistema Dedicado a turismo",
+    "license": "PRIVATE",
+    "authors": [
+        {
+            "name": "redtagmobile",
+            "email": "web.redtagmobile@gmail.com"
+        }
+    ],
+    
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\":"source/"
+        }
+    },
+    "files":[
+        "source/Config.php"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "dompdf/dompdf": "^1.0",
+        "phpmailer/phpmailer": "^6.4"
+    }
+}
